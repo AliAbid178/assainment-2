@@ -1,72 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
 }
-nav{
+
+nav {
     background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
 }
-.nav-container{
-   
+
+.nav-container {
+
     display: flex;
     align-items: center;
     /* min-height: 100px; */
     max-width: 1400px;
     margin: 0 auto;
 }
-.logo-container{
-    
-       display: flex;
-       align-items: center;
-       height: 100px;
-       width: 50%;
+
+.logo-container {
+
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 50%;
 }
 
-.logo-container img{
+.logo-container img {
     width: 86.041px;
     height: 40px;
     object-fit: cover;
     margin-right: 20px;
 }
 
-.logo-container p{
+.logo-container p {
     color: #0B0223;
     font-weight: 700;
     font-size: 45px;
     margin: 0px;
 }
-.section{
+
+.section {
     color: #FF42A5;
 }
-.nav-item-container{
-    
+
+.nav-item-container {
+
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+
+
 }
-.nav-item-container a{
+
+.nav-item-container a {
     color: #3C354F;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
 }
-.nav-item-container .login-bt{
-    width: 262px;
-height: 56px;
-    border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-/* padding: 17px 120px 18px 24px; */
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
 
+.nav-item-container .login-bt {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    /* padding: 17px 120px 18px 24px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+/* play like the start  */
+.play {
+
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 700px;
+    border: 2px solid blue;
+
+}
+
+.play-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Play-text {
+    width: 50%;
+
+    border: 2px solid green;
+    
+
+}
+
+.Play-text p {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.Play-text h1 {
+ 
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #F948B2 , #8758F1 );
+    color: transparent;
+    -webkit-background-clip: text ;
+}
+.Play-text >div > ul{
+    list-style: none;
+
+}
+
+.Play-img {
+    width: 50%;
+    border: 2px solid blue;
+}
+
+.Play-img img {
+    width: 100%;
+    height: auto;
 }
