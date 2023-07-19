@@ -1,4 +1,4 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
     .nav-container{
            flex-direction: column;
            gap: 40px;
@@ -148,6 +148,248 @@
        
     }
 
+    .ico{
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .ico-container{
+        width: 100%;
+        display: grid;
+      grid-template-columns: repeat(2 ,1fr);
+      width: auto;
+      cursor: pointer;
+     
+    }
+    .butt{
+
+        width: 163px;
+        height: 80px;
+        margin: 0px auto;
+        gap: 30px;
+        border-radius: 50px;
+    background-color: #FFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    }
+    .butt>img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .butt:hover{
+        transform: scale(5s);
+        font-size: 15px;
+        color: #FF42A5;
+        border-color: #FF42A5;
+    }
+   
  
 
 }
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    .nav-container{
+        /* flex-direction: column; */
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+  
+ }
+ .nav-item-container{
+     /* flex-direction: column; */
+     gap: 36px;
+     width: 100%;
+     height: auto;
+ }
+ 
+  
+ .play {
+
+     background-image: none;
+     /* border: 2px solid yellow; */
+     height: auto;
+     width: auto;
+ 
+ }
+ .play-container {
+     
+  flex-direction: column-reverse;
+  /* align-content: center;
+  justify-content: center;
+  text-align: center; */
+  /* border: 2px solid green; */
+  padding: 0px auto ;
+ }
+ .Play-text {
+     width: 100%;
+     justify-content: center;
+     text-align: center;
+
+     margin-bottom: 100px;
+
+ }
+
+
+ .Play-img {
+     width: 100%;
+     padding-top: 70px;
+
+ }
+ .Play-text h1 {
+    margin: 0px ;
+ }
+
+
+
+
+ .w{
+   flex-direction: column;
+   margin-bottom: 160px;
+   background: none;
+ }
+ .we{
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .we-img>img{
+     width: 100%;
+ }
+ .we-container{
+     width: 100%;
+     text-align: center;
+ }
+
+ .onl {
+    flex-direction: column;
+    margin-bottom: 100px;
+
+ }
+ .onl-section {
+       flex-direction: column;
+       margin-bottom: 0px;
+       padding-bottom: 0px;
+ }
+ .primary{
+     
+     height: auto;
+     
+ }
+
+
+ .p{
+   flex-direction: column;
+   align-items: center;
+   margin-top: auto;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   /* border: 2px solid green; */
+}
+.play-instantly{
+ width: 100%;
+ height: auto;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ /* border: 2px solid blue; */
+}
+ .play-right{
+     margin-top: 0px;
+     /* flex-direction: column; */
+     width: 400px;
+     height: 900px;
+      /* width: auto; */
+      /* margin-left:  100px; */
+      height: 500px;
+      padding-left: 40px;
+      /* border: 2px solid red; */
+      margin: 0px;
+ }
+
+ .play-left{
+     /* width: 100%; */
+     text-align: center;
+     width: 100%
+     height: 238.163px;
+     padding-left: 40px;
+     padding: 0px;
+     margin-bottom: 200px;
+     margin-bottom: 100px ;
+     /* border: 2px solid yellow; */
+      
+ }
+ .img-1{
+     width: 260px;
+     /* padding-left: 200px; */
+     height: 500px;
+     position: relative;
+     top: -50px;
+     left: -20px;
+      
+ }
+ .img-2{
+
+     width: 90px;
+     height: 200px;
+     width: 20%;
+     position: relative;
+     left: -100px;
+    
+ }
+
+ .ico{
+     margin-top: 100px;
+     width: 100%;
+ }
+
+ .ico-container{
+     width: 100%;
+     display: grid;
+   grid-template-columns: repeat(2 ,1fr);
+   width: auto;
+   cursor: pointer;
+  
+ }
+ .butt{
+
+     width: 163px;
+     height: 80px;
+     margin: 0px auto;
+     gap: 30px;
+     border-radius: 50px;
+ background-color: #FFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ font-size: 13px;
+ font-weight: 600;
+ cursor: pointer;
+ }
+ .butt>img{
+     height: 30px;
+     width: 30px;
+ }
+
+ .butt:hover{
+     transform: scale(5s);
+     font-size: 15px;
+     color: #FF42A5;
+     border-color: #FF42A5;
+ }
+
+
+}
+
