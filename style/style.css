@@ -82,61 +82,255 @@ nav {
 }
 
 /* play like the start  */
+
+
 .play {
 
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: cover;
-    height: 700px;
-    border: 2px solid blue;
+    /* background-size: cover; */
+    height: auto;
+    max-width: auto;
+
+    /* border: 2px solid blue; */
+
+
 
 }
 
 .play-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
+
+    /* border: 2px solid red; */
     max-width: 1400px;
     margin: 0 auto;
+    gap: 60px;
+
+
+
 }
 
 .Play-text {
     width: 50%;
+    /* background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    justify-items: center;
+    align-items: center; */
 
-    border: 2px solid green;
-    
+    /* border: 2px solid green; */
+
 
 }
 
+
 .Play-text p {
     color: #0B0223;
-    text-align: center;
+    /* text-align: center; */
     font-size: 48px;
     font-weight: 600;
 }
 
 .Play-text h1 {
- 
-    text-align: center;
+
+    /* text-align: center; */
     font-size: 95px;
     font-weight: 800;
-    background-image: linear-gradient(to bottom, #F948B2 , #8758F1 );
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
-    -webkit-background-clip: text ;
+    -webkit-background-clip: text;
 }
-.Play-text >div > ul{
+
+.Play-text>div>ul {
+    padding-left: 0px;
     list-style: none;
 
 }
 
+li {
+    margin-bottom: 17px;
+}
+
+.Play-text>div {
+    gap: 41px;
+}
+
 .Play-img {
     width: 50%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .Play-img img {
     width: 100%;
     height: auto;
+}
+
+.btn-1 {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-left: 35px; */
+    margin-right: 24px;
+}
+
+.btn-2 {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: none;
+
+}
+
+
+/* we are gamer start */
+
+.w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    /* border: 2px solid green; */
+    align-items: center;
+    gap: 52px;
+}
+
+.we-container {
+    text-align: right;
+}
+
+.we-container>h2 {
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.we-container>p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.we-container>div>p {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.we-container>div>h3 {
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Online Games Funny Videos  */
+
+.onl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.onl-container {
+    width: auto;
+    height: auto;
+}
+
+.onl-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.primary {
+    width: 342px;
+    height: 800px;
+    gap: 24;
+}
+.primary img{
+    width: 342px;
+    height: 400px;
+}
+
+.back {
+
+    /* display: flex; */
+    /* justify-content: center;
+    align-content: center;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 342px;
+    height: 400px;
+    background-image: url("../images/Rectangle\ 7.png");
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../images/Rectangle\ 7.png");
+    background-size:cover;
+
+}
+/* .back>p{
+font-size: 20px;
+font-weight: 600;
+color: #FF42A5;
+} */
+.back>a:hover{
+    font-size: 30px;
+    width: 48px;
+height: 48px;
+ 
+}
+
+.onl-container> h2{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+
+
+}
+
+.fun{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+color: transparent;
+-webkit-background-clip: text;
+}
+.onl-container> p{
+
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+
+}
+.primary>p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
 }
