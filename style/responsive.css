@@ -80,10 +80,53 @@
           padding-bottom: 0px;
     }
     .primary{
+        
         height: auto;
         
     }
 
+
+    .p{
+      flex-direction: column;
+      align-items: center;
+      margin-top: auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .play-instantly{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    .play-right{
+        /* flex-direction: column; */
+        width: 100%;
+        ?
+         /* width: auto; */
+         margin-left:  100px;
+    }
+
+    .play-left{
+        width: 100%;
+        text-align: center;
+        width: 461.751px;
+        height: 238.163px;
+        padding-left: 40px;
+        margin-bottom: 200px;
+        margin: ;
+
+    }
+    .img-1{
+        
+
+         
+    }
+    .img-2{
+        
+    }
 
  
 
